@@ -9,7 +9,7 @@ const {verifyAdmin}=require('../utils/verifyToken.js')
 
 const router = express.Router();
 //CREATE
-router.post("/:hotelid", verifyAdmin, createRoom);
+router.post("/", verifyAdmin, createRoom);
 
 //UPDATE
 router.put("/availability/:id", updateRoomAvailability);
