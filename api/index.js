@@ -13,6 +13,7 @@ const cors=require('cors');
 const bodyparser=require("body-parser")
 const connectDB=require('./DB/index.js')
 connectDB();
+
 app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
@@ -37,7 +38,7 @@ app.use("/api/users",usersRoute);
 app.use("/api/hotels",hotelsRoute);
 app.use("/api/rooms",roomsRoute);
 
-app.listen(3000,()=>{
+app.listen(5000,()=>{
     console.log(`Connected the Server ${PORT}`,)
 })
 
