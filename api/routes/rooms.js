@@ -4,12 +4,12 @@ const {createRoom,
     getRoom,
     getRooms,
     updateRoom,
-    updateRoomAvailability}=require('../controllers/room.js')
+    updateRoomAvailability} = require('../controllers/room.js')
 const {verifyAdmin}=require('../utils/verifyToken.js')
 
 const router = express.Router();
 //CREATE
-router.post("/", verifyAdmin, createRoom);
+router.post("/:hotel_id", verifyAdmin, createRoom);
 
 //UPDATE
 router.put("/availability/:id", updateRoomAvailability);
