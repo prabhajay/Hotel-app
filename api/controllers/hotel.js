@@ -86,8 +86,8 @@ const Room = require("../models/Room.js");
 
  const getHotelRooms = async (req, res, next) => {
   try {
-    const hotel = await Hotel.findById(req.params.id);
-    const list = await Promise.all(
+    const hotel = await Hotel.findById(req.params.hotelid);
+    const list=await Promise.all(
       hotel.rooms.map((room) => {
         return Room.findById(room);
       })
