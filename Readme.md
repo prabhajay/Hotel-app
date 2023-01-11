@@ -6,7 +6,7 @@
       2. Front-End - React.Js
       3. Databases - MongoDB.
       
-     <img width="750" alt="image" src="https://user-images.githubusercontent.com/43902822/211705533-5c588f41-f989-4d5c-8dd1-cfd39d0aca73.png">
+     <img width="550" alt="image" src="https://user-images.githubusercontent.com/43902822/211705533-5c588f41-f989-4d5c-8dd1-cfd39d0aca73.png">
 
 
 ## 1.Node.Js -Api
