@@ -61,9 +61,9 @@ const Reserve = ({ setOpen, hotelId }) => {
           return res.data;
         })
       );
-      //setOpen(false);
-      //navigate("/");
-      <div>Your successfully reserve the room</div>
+      setOpen(false);
+      navigate("/");
+      //<div>Your successfully reserve the room</div>
     } catch (err) {}
   };
   return (
