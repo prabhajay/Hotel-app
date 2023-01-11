@@ -22,7 +22,7 @@ note:update package.json if you are using other file name as entry point
 
 - Review package.json for dependencies 
 
-<img width="750" alt="image" src="https://user-images.githubusercontent.com/43902822/211705447-83342414-9da9-44e8-b679-ff4e7e5115ef.png">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/43902822/211706115-039c9459-af4a-42c6-9872-fc3e16226a8c.png">
 
 - Create .env for environment variables
 
