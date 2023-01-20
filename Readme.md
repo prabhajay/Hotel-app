@@ -49,6 +49,7 @@ note:update package.json if you are using other file name as entry point
 | Delete Hotel | `api/hotels/id`| delete | Hotel | DELETE | deleteHotel |
 | Count by Hotel Type | `api/hotels/countByType` | gets hotel counts | Hotel | countByType |
 | Count By City | `api/hotels/countByCity?city=Calgary,Edmontom,Lake Louise` | gets hotel counts | Hotel | countByType |
+| featured, min and max | `api/hotels?featured=true&min=10&max=200``| mai and max price | GET | getHotels |
 | get Hotel Room | `api/hotels/room/hotelid`| getHotelRooms | Hotel | get | getHotelRoom |
 
 ## Room
@@ -58,7 +59,7 @@ note:update package.json if you are using other file name as entry point
 | Get Rooms | `api/rooms`| get all Users | GET | getRooms |
 | Get Room | `api/rooms/roomid` | get specific user | GET | getRoom|
 | Delete Room | `api/rooms/hotelid`| delete | User | DELETE | deleteRoom |
-| Update Room Available | `api/rooms/availablity/roomid/ | Update | PUT | updateRoomAvailability |
+| Update Dates Room Available=> params given "dates" | `api/rooms/availablity/roomid/ | Update | PUT | updateRoomAvailability |
 
 
 ### Data Models
