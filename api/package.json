@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
 
-    "dev": "npx nodemon",
+    "dev": " nodemon",
     "build": "echo 'No build step required'",
     "prestart": "chmod +x node_modules/.bin/nodemon"
   },

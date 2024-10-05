@@ -1,5 +1,4 @@
 require('dotenv').config();
-const credential = JSON.parse(process.env.CREDENTIALS_JSON);
 const uuid=require('uuid')
 const express=require('express')
 //firebase-admin
