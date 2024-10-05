@@ -4,7 +4,7 @@ const express=require('express')
 //firebase-admin
 const fs = require('fs');
 const admin= require('firebase-admin')
-const PORT=process.env.PORT || 3000;
+const PORT=process.env.PORT || 5000;
 const app = express()
 const cookieParser =require('cookie-parser')
 const authRoute=require('../api/routes/auth.js')
